@@ -7,12 +7,12 @@ function Header() {
   return (
     <Navbar expand="lg" className="navbar bg-body-tertiary">
       <Container className='navbar-content'>
-        <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/manuel/">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-5">
-            <Nav.Link href="/">Inicio</Nav.Link>
-            <Nav.Link href="/about">Sobre mi</Nav.Link>
+            <Nav.Link href="/manuel/">Inicio</Nav.Link>
+            <Nav.Link href="/manuel/about">Sobre mi</Nav.Link>
             <NavDropdown title="Servicios" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -24,8 +24,8 @@ function Header() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/galery">Galeria</Nav.Link>
-            <Nav.Link href="/contact">Contacto</Nav.Link>
+            <Nav.Link href="/manuel/galery">Galeria</Nav.Link>
+            <Nav.Link href="/manuel/contact">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
