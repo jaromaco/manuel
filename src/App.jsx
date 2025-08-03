@@ -19,12 +19,12 @@ function App() {
       <Contactdata/>
         <Header/>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/manuel/" element={<Home />} />
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="services" element={<Services />} />
-            <Route path="galery" element={<Galery />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="manuel/about" element={<About />} />
+            <Route path="manuel/services" element={<Services />} />
+            <Route path="manuel/galery" element={<Galery />} />
+            <Route path="manuel/contact" element={<Contact />} />
           </Routes>
         <Footer />
     </BrowserRouter>
