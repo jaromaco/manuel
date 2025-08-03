@@ -1,0 +1,19 @@
+[
+     {
+    "icon" :"experiencia.svg",
+    "title": "Experiencia",
+    "text":"30 años de experiencia permite buenos resultados"
+    },
+    {
+    "icon" :"confianza.svg",
+    "title": "Confianza",
+    "text":"Un gran trabajo tiene siempre un premio"
+    },
+     {
+    "icon" :"compromiso.svg",
+    "title": "Compromiso",
+    "text":"Los resultados, sin duda, nuestro mejor aval"
+    }
+    
+  
+]
