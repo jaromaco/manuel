@@ -21,10 +21,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="services" element={<Services />} />
-            <Route path="galery" element={<Galery />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/galery" element={<Galery />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         <Footer />
     </BrowserRouter>
