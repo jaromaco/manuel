@@ -1,0 +1,19 @@
+<svg width="220" height="120" viewBox="0 0 220 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Contenedor para alinear las estrellas -->
+    <g transform="translate(0, 50)"> <!-- Ajusta la posición vertical para la línea base -->
+        <!-- Primera estrella (pequeña) -->
+        <svg x="0" y="0" width="60" height="60" viewBox="0 0 24 24" fill="none" style="color: #5C832F;">
+            <path d="M12 2L9.19 8.63L2 9.24L7.45 13.97L5.82 21L12 17.27L18.18 21L16.55 13.97L22 9.24L14.81 8.63L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <!-- Segunda estrella (grande) -->
+        <svg x="54" y="-40" width="110" height="110" viewBox="0 0 24 24" fill="none" style="color: #5C832F;">
+            <path d="M12 2L9.19 8.63L2 9.24L7.45 13.97L5.82 21L12 17.27L18.18 21L16.55 13.97L22 9.24L14.81 8.63L12 2Z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <!-- Tercera estrella (pequeña) -->
+        <svg x="160" y="0" width="60" height="60" viewBox="0 0 24 24" fill="none" style="color: #5C832F;">
+            <path d="M12 2L9.19 8.63L2 9.24L7.45 13.97L5.82 21L12 17.27L18.18 21L16.55 13.97L22 9.24L14.81 8.63L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </g>
+</svg>

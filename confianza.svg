@@ -1,0 +1,16 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del escudo con ambos lados superiores curvados hacia adentro -->
+  <path d="M50 5 
+           Q 35 15, 20 20  
+           L 15 50 
+           C 15 65, 20 80, 50 95 
+           C 80 80, 85 65, 85 50 
+           L 80 20 
+           Q 65 15, 50 5 
+           Z" 
+        stroke="#5C832F" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Círculo alrededor del checkmark -->
+  <circle cx="50" cy="50" r="18" stroke="#5C832F" stroke-width="5" fill="none"/>
+  <!-- Checkmark dentro del círculo -->
+  <path d="M42 50L48 56L58 46" stroke="#5C832F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
