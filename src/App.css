@@ -196,7 +196,7 @@ button {
 
 /* Estilos del Hero */
 .hero {
-  background-image: url('/hero.png');
+  background-image: url('hero.png');
   /* Reemplaza con tu imagen */
   background-size: cover;
   background-position: center;
