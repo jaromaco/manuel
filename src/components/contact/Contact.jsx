@@ -1,6 +1,7 @@
 import React, { useRef , useState } from "react";
 import ContactForm from "./ContactForm";
 import PopUp from "./PopUp";
+import Title from "../common/Title";
 
 export default function Contact () {
 
@@ -18,8 +19,11 @@ export default function Contact () {
 
   return (
     <>
-      <div className="page form-contact">
-        <ContactForm onSuccess={handleFormSuccess} formRef={formRef}/>
+                
+
+      <div className="contact-container page form-contact">
+        <Title text="Contactanos" />
+        <ContactForm className="formulario" onSuccess={handleFormSuccess} formRef={formRef}/>
         {showPopup &&
           <PopUp msj="El mensaje fue recibido.lllNos pondremos en contacto con la mayor brevedad posible."
             onClose={closePopup}

@@ -103,9 +103,8 @@ const ContactForm = ({onSuccess, formRef }) => {
     return (
         <>
             <form autoComplete="off" ref={formRef} onSubmit={procesarSubmit}>
-                <h2>Contact us</h2>
     
-                <label htmlFor="nombre">Name:</label>
+                <label htmlFor="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" value={formData.nombre} onChange={procesarCambio}/>
 
                 {formErrors.nombre && <span className="error"> {formErrors.nombre}</span>}
@@ -116,13 +115,13 @@ const ContactForm = ({onSuccess, formRef }) => {
                 {formErrors.email && <span className="error"> {formErrors.email}</span>}
 
                 
-                <label htmlFor="asunto">Subject:</label>
+                <label htmlFor="asunto">Asunto:</label>
                 <input type="text" id="asunto" name="asunto" value={formData.asunto} onChange={procesarCambio}/>
 
                 {formErrors.asunto && <span className="error"> {formErrors.asunto}</span>}
 
                 
-                <label htmlFor="mensaje">Message:</label>
+                <label htmlFor="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" value={formData.mensaje} rows="5" onChange={procesarCambio}></textarea>
 
                 {formErrors.mensaje && <span className="error"> {formErrors.mensaje}</span>}

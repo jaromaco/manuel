@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-function Cualidades({ icon ,title, text, listgroup, link }) {
+function Cualidades({ icon ,title, text}) {
   return (
     <Card className='cardbox' style={{ width: '18rem', margin: '0 2rem' }} >
       <Card.Img variant="top" className="cualidadesicon rounded mx-auto d-block" src={icon} alt={title} />

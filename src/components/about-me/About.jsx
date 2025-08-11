@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Basic from "./Cualidades";
 import Retrato from "./Retrato";
+import Title from "../common/Title"
+import Text from "./Text"
 
 
 export default function About () {
@@ -16,7 +18,9 @@ export default function About () {
 
   return (
     <>  
+      
         <div className="about-container">
+          <Title text="Manuel Sánchez Rivera"/>
           <Retrato />
           <div className="cualidades">
             
@@ -25,6 +29,7 @@ export default function About () {
             )
             )}
           </div>
+          <Text />
         </div>
     </>
   );

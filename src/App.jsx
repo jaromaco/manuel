@@ -15,17 +15,20 @@ import Contact from './components/contact/Contact'
 
 function App() {
   return (
+    
     <BrowserRouter>
       <Contactdata/>
         <Header/>
+        <div className='contain'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
+            <Route path="/services/:servicio" element={<Services />} />
             <Route path="/galery" element={<Galery />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          </div>
         <Footer />
     </BrowserRouter>
   );
