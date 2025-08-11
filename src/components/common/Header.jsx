@@ -50,7 +50,7 @@ function Header() {
 
                         {/* 4. Añadimos el onClick a todos los enlaces */}
                         <Nav.Link className='nav-link' as={Link} to="/" onClick={handleClose}>Inicio</Nav.Link>
-                        <Nav.Link as={Link} to="/about" onClick={handleClose}>Sobre mi</Nav.Link>
+                        <Nav.Link className='nav-link' as={Link} to="/about" onClick={handleClose}>Sobre mi</Nav.Link>
 
                         <NavDropdown
                             className='nav-link'

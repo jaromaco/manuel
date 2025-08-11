@@ -119,7 +119,12 @@ span {
 
 .nav-link:hover{
   font-style: italic;
-  color:#244d30
+  color:#ffffff;
+  background-color: #5C832F;
+}
+
+
+.item {
 }
 
 .items:active {
@@ -132,12 +137,17 @@ header {
 }
 
 
-
 footer {
   overflow: visible;
   bottom: 0;
   text-align: center;
   background-color: #5C832F;
+  margin:0;
+}
+
+.footer-p {
+  margin:0;
+  padding: auto;
 }
 
 
@@ -190,7 +200,7 @@ button {
 
 /* Estilos del Hero */
 .hero {
-  background-image: url('hero.jpeg');
+  background-image: url('/hero.png');
   /* Reemplaza con tu imagen */
   background-size: cover;
   background-position: center;
@@ -387,19 +397,19 @@ button {
 
 @media (min-width:768px) {
   .hero {
-    height: 88vh;
+    height: 87vh;
   }
 
   .about-container {
-    height: 88vh;
+    height: 87vh;
   }
 
   .services-container {
-    height: 88vh
+    height: 87vh
   }
 
   .galery-container {
-    height: 86vh;
+    height: 85vh;
     padding: 0 10rem 5rem 10rem;
     margin-top: 1rem;
   }
@@ -410,7 +420,7 @@ button {
   }
 
   .contact-container {
-    height: 86vh;
+    height: 85vh;
 
   }
 
