@@ -1,13 +1,16 @@
 // Contents.jsx
 import React from 'react';
 
-function Contents({ photo, title, text }) { 
+function Contents({ photo, title, text }) {
     return (
-        <article>
-            <img src={photo} alt={title} />
-            <h2>{title}</h2>
-            <p>{text}</p>
-        </article>
+        <>
+            <img className="photo-l" src={photo} alt={title} />
+            <article>
+
+                <h2>{title}</h2>
+                <p>{text}</p>
+            </article>
+        </>
     );
 }
 export default Contents;

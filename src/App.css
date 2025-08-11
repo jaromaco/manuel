@@ -157,6 +157,11 @@ footer {
 }
 
 /*Contacto*/
+
+.text-contact{
+  margin:2rem 25% 3rem;
+}
+
 form {
   width: 40%;
   margin: 2rem auto
@@ -203,7 +208,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(255, 255, 255);
+  color: #f4f4f4;
   text-align: center;
   overflow: hidden;
 }
@@ -211,8 +216,8 @@ button {
 
 
 .hero-content {
-  background-color: rgba(0, 0, 0, 0.178);
-  border-radius: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 2rem 1rem;
   max-width: 800px;
   padding: 20px;
   margin: 5px;
@@ -224,6 +229,17 @@ button {
 
 .hero-content p {
   font-size: x-large;
+}
+
+.parrafo{
+  width: 40%;
+  margin: 2rem auto;
+  
+}
+
+.introduccion {
+  text-align: left;
+  font-size: larger;
 }
 
 /* Animaciones */
@@ -325,6 +341,10 @@ button {
   background: none;
 }
 
+.cardbox img{
+  margin: 0;
+}
+
 .cualidadesicon {
   width: auto;
   height: 4rem;
@@ -339,6 +359,11 @@ button {
 
 }
 
+.title p {
+    margin: 2rem auto 2rem;
+  text-align: center;
+}
+
 .title h2 {
   margin: 2rem auto 2rem;
   text-align: center;
@@ -347,7 +372,6 @@ button {
 .title hr {
   max-width: 500px;
   margin: auto;
-  padding: 1rem;
 }
 
 .text {
@@ -357,6 +381,11 @@ button {
   grid-row-end: 4;
   text-align: center;
   margin: 0 auto 0;
+  padding:0 10%;
+}
+
+.text p {
+  text-align: left;
 }
 
 .photo {
@@ -368,6 +397,15 @@ button {
 }
 
 /*Services*/
+
+.centrando {
+  margin: 10px 20%;
+}
+
+.photo-l {
+  width: 200px;
+  height: auto;
+}
 
 
 
@@ -393,7 +431,7 @@ button {
 
 @media (min-width:768px) {
   .hero {
-    height: 87vh;
+    height: 68vh;
   }
 
   .about-container {

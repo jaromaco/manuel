@@ -20,7 +20,7 @@ export default function About () {
     <>  
       
         <div className="about-container">
-          <Title text="Manuel Sánchez Rivera"/>
+          <Title text="Manuel Sánchez Rivera" subtitle="Pasión por el oficio, compromiso con la seguridad"/>
           <Retrato />
           <div className="cualidades">
             

@@ -1,20 +1,24 @@
 [
     {
         "id": 1,
-        "photo": "experiencia.svg",
-        "title": "Podas",
-        "text": "30 años de experiencia permite buenos resultados"
+        "photo": "poda_altura.png",
+        "title": "Poda en altura",
+        "text": "Técnicas especializadas para mantener tus árboles sanos, seguros y estéticos. Realizo diferentes tipos de poda según las necesidades específicas de cada ejemplar:",
+        "list":["Poda de formación: Para guiar el crecimiento de árboles jóvenes.", "Poda de saneamiento y limpieza: Eliminación de ramas secas, enfermas o dañadas.", "Poda de reducción o reestructuración de copa: Para controlar el tamaño, evitar roces con edificios o aliviar el peso de la estructura."," Poda de seguridad: Eliminación de ramas con riesgo de caída sobre personas o propiedades."]
     },
     {
         "id": 2,
-        "photo": "experiencia.svg",
-        "title": "Talas",
-        "text": "30 años de experiencia permite buenos resultados"
+        "photo": "tala_controlada.png",
+        "title": "Talas controladas",
+        "text": "Cuando un árbol supone un riesgo, está enfermo o simplemente es necesario retirarlo, realizo talas controladas con la máxima seguridad.",
+        "list":["Técnicas de apeo controlado: Dirijo la caída del árbol de forma segura.","Desmontaje por secciones: En espacios complejos (cerca de casas, piscinas, tendidos eléctricos), desmonto el árbol pieza por pieza utilizando técnicas de trepa y sistemas de retención de cargas.","Retirada de restos vegetales para dejar el espacio completamente limpio."]
+
     },
     {
         "id": 3,
-        "photo": "experiencia.svg",
+        "photo": "desbroce.png",
         "title": "Desbroces",
-        "text": "30 años de experiencia permite buenos resultados"
+        "text": "Prepara y mantén tus terrenos en condiciones óptimas.",
+        "list":["Limpieza de maleza y vegetación de baja altura.","Prevención de incendios forestales mediante la creación de cortafuegos y la limpieza del sotobosque.","Acondicionamiento de parcelas para su uso o venta.","Uso de desbrozadoras profesionales para un acabado rápido y eficaz."]
     }
 ]

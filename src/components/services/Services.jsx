@@ -28,7 +28,9 @@ function Services() {
   return (
     <>
       <div className="services-container">
-        <Contents icon={serviceData.photo} title={serviceData.title} text={serviceData.text} />
+        <div className='centrando'>
+        <Contents photo={serviceData.photo} title={serviceData.title} text={serviceData.text} />
+        </div>
       </div>
     </>
   );
