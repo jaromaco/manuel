@@ -2,7 +2,7 @@
 function Retrato() {
   // Placeholder image URL for the pruner.
   // In a real application, this would be a prop or an imported asset.
-  const prunerImageUrl = "./podador.png";
+  const prunerImageUrl = "./images/podador.png";
 
   return (
     <>

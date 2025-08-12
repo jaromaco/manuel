@@ -407,6 +407,18 @@ button {
   height: auto;
 }
 
+.content-div {
+  display: flex;
+  margin: 20% auto;
+  justify-content: space-between;
+  gap: 10rem
+  
+}
+
+.content-div img{
+  height: 600px ;
+  width: auto;
+}
 
 
 /*Galery*/

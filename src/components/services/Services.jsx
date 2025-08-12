@@ -29,7 +29,7 @@ function Services() {
     <>
       <div className="services-container">
         <div className='centrando'>
-        <Contents photo={serviceData.photo} title={serviceData.title} text={serviceData.text} />
+        <Contents photo={serviceData.photo} title={serviceData.title} text={serviceData.text} list={serviceData.list}/>
         </div>
       </div>
     </>
